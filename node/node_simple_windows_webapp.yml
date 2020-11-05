@@ -5,12 +5,12 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: "SimpleNodeJsWebAppOnWindows"    # set this to your application's name
+  AZURE_WEBAPP_NAME: "TestAppSimpleNodeJsWebAppOnWindows"    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: "Application"      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '8.11.1'                        # set this to the node version to use
   RESOURCEGROUPNAME: "githubWorkflowL2tests-rg"
   LOCATION: "South Central US"
-  HOSTINGPLANNAME: "SimpleNodeJsWebAppOnWindows-plan"
+  HOSTINGPLANNAME: "TestAppSimpleNodeJsWebAppOnWindows-plan"
   APPINSIGHTLOCATION: "South Central US"
   SKU: "D1 Shared"
 
