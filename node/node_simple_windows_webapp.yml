@@ -12,7 +12,7 @@ env:
   LOCATION: "South Central US"
   HOSTINGPLANNAME: "SimpleNodeJsWebAppOnWindows-plan"
   APPINSIGHTLOCATION: "South Central US"
-  SKU: "S1 Standard"
+  SKU: "D1 Shared"
 
 jobs:
   build:
